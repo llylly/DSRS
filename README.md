@@ -4,7 +4,7 @@ This repo contains the official code for DSRS.
 
 > Linyi Li, Jiawei Zhang, Tao Xie, Bo Li. Double Sampling Randomized Smoothing. ICML 2022
 
-We will upload all code, model weights, and experiment data by the conference start date. If you would like to obtain these (possibly unorganized) resources before that date, please request Linyi Li via email: linyi2@illinois.edu.
+We will upload all code, model weights, and experiment data by the conference start date. If you would like to obtain these (possibly unorganized) resources before that date, please request from Linyi Li via email: linyi2@illinois.edu.
 
 
 ```
