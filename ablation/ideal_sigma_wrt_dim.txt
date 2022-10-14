@@ -1,0 +1,235 @@
+{
+  "0.8": {
+    "4": {
+      "gaussian_old": 0.8416212335729152,
+      "gaussian_new": 1.6903469804674387,
+      "g_gaussian_k": 0,
+      "g_gaussian_old": 0.8416212335729152,
+      "g_gaussian_new": 1.6903469804674387
+    },
+    "6.0": {
+      "gaussian_old": 0.8416212335729143,
+      "gaussian_new": 1.844997750595212,
+      "g_gaussian_k": 0,
+      "g_gaussian_old": 0.8416212335729143,
+      "g_gaussian_new": 1.844997750595212
+    },
+    "8.0": {
+      "gaussian_old": 0.841621233572914,
+      "gaussian_new": 1.9649422029033303,
+      "g_gaussian_k": 0,
+      "g_gaussian_old": 0.841621233572914,
+      "g_gaussian_new": 1.9649422029033303
+    },
+    "12.0": {
+      "gaussian_old": 0.8416212335729147,
+      "gaussian_new": 2.150121727026999,
+      "g_gaussian_k": 1.0,
+      "g_gaussian_old": 0.7839455799525198,
+      "g_gaussian_new": 2.1833402570337057
+    },
+    "18.0": {
+      "gaussian_old": 0.8416212335729135,
+      "gaussian_new": 2.3563188733533025,
+      "g_gaussian_k": 4.0,
+      "g_gaussian_old": 0.6699586526614405,
+      "g_gaussian_new": 2.4718925124034286
+    },
+    "26.0": {
+      "gaussian_old": 0.8416212335729129,
+      "gaussian_new": 2.5635905331000686,
+      "g_gaussian_k": 8.0,
+      "g_gaussian_old": 0.5839905675745214,
+      "g_gaussian_new": 2.7686834800988436
+    },
+    "38.0": {
+      "gaussian_old": 0.8416212335729135,
+      "gaussian_new": 2.7998595032840967,
+      "g_gaussian_k": 14.0,
+      "g_gaussian_old": 0.509946252069414,
+      "g_gaussian_new": 3.118702443316579
+    },
+    "56.0": {
+      "gaussian_old": 0.8416212335729152,
+      "gaussian_new": 3.067117650061846,
+      "g_gaussian_k": 23.0,
+      "g_gaussian_old": 0.44695380755890257,
+      "g_gaussian_new": 3.5326130455359817
+    },
+    "84.0": {
+      "gaussian_old": 0.8416212335729152,
+      "gaussian_new": 3.3773522591218352,
+      "g_gaussian_k": 37.0,
+      "g_gaussian_old": 0.39234447902431124,
+      "g_gaussian_new": 4.039831692352891
+    },
+    "126.0": {
+      "gaussian_old": 0.841621233572914,
+      "gaussian_new": 3.72228620108217,
+      "g_gaussian_k": 58.0,
+      "g_gaussian_old": 0.3472306265736791,
+      "g_gaussian_new": 4.640226252377033
+    },
+    "188.0": {
+      "gaussian_old": 0.8416212335729147,
+      "gaussian_new": 4.100239020772278,
+      "g_gaussian_k": 89.0,
+      "g_gaussian_old": 0.31041500675055367,
+      "g_gaussian_new": 5.344837554730475
+    },
+    "282.0": {
+      "gaussian_old": 0.8416212335729113,
+      "gaussian_new": 0.0,
+      "g_gaussian_k": 136.0,
+      "g_gaussian_old": 0.2795961817785879,
+      "g_gaussian_new": 6.198213086463511
+    },
+    "422.0": {
+      "gaussian_old": 0.8416212335729164,
+      "gaussian_new": 0.0,
+      "g_gaussian_k": 206.0,
+      "g_gaussian_old": 0.25432788896983627,
+      "g_gaussian_new": 7.217475795187056
+    },
+    "632.0": {
+      "gaussian_old": 0.8416212335729156,
+      "gaussian_new": 0.0,
+      "g_gaussian_k": 311.0,
+      "g_gaussian_old": 0.2334670731614521,
+      "g_gaussian_new": 8.448800072073936
+    },
+    "948.0": {
+      "gaussian_old": 0.8416212335729175,
+      "gaussian_new": 0.0,
+      "g_gaussian_k": 469.0,
+      "g_gaussian_old": 0.21624041549074863,
+      "g_gaussian_new": 9.945001220330596
+    },
+    "1422.0": {
+      "gaussian_old": 0.8416212335729196,
+      "gaussian_new": 0.0,
+      "g_gaussian_k": 706.0,
+      "g_gaussian_old": 0.20209355958619807,
+      "g_gaussian_new": 11.761587811633945
+    },
+    "2132.0": {
+      "gaussian_old": 0.8416212335729113,
+      "gaussian_new": 0.0,
+      "g_gaussian_k": 1061.0,
+      "g_gaussian_old": 0.19049507272607502,
+      "g_gaussian_new": 13.96919775288552
+    },
+    "3198.0": {
+      "gaussian_old": 0.8416212335729152,
+      "gaussian_new": 0.0,
+      "g_gaussian_k": 1594.0,
+      "g_gaussian_old": 0.18097171010770954,
+      "g_gaussian_new": 16.662852140143514
+    },
+    "4796.0": {
+      "gaussian_old": 0.8416212335729167,
+      "gaussian_new": 0.0,
+      "g_gaussian_k": 2393.0,
+      "g_gaussian_old": 0.17317659984124878,
+      "g_gaussian_new": 19.948575645685196
+    },
+    "7194.0": {
+      "gaussian_old": 0.8416212335729212,
+      "gaussian_new": 0.0,
+      "g_gaussian_k": 3592.0,
+      "g_gaussian_old": 0.16678767360231161,
+      "g_gaussian_new": 23.964597494341433
+    },
+    "10790.0": {
+      "gaussian_old": 0.8416212335729093,
+      "gaussian_new": 0.0,
+      "g_gaussian_k": 5390.0,
+      "g_gaussian_old": 0.1615594307298413,
+      "g_gaussian_new": 28.873279807157815
+    },
+    "16184.0": {
+      "gaussian_old": 0.8416212335729073,
+      "gaussian_new": 0.0,
+      "g_gaussian_k": 8087.0,
+      "g_gaussian_old": 0.1572835657839486,
+      "g_gaussian_new": 34.87794194370508
+    },
+    "24276.0": {
+      "gaussian_old": 0.8416212335729287,
+      "gaussian_new": 0.0,
+      "g_gaussian_k": 12133.0,
+      "g_gaussian_old": 0.15378434095319862,
+      "g_gaussian_new": 42.22678719088435
+    },
+    "36414.0": {
+      "gaussian_old": 0.8416212335729062,
+      "gaussian_new": 0.0,
+      "g_gaussian_k": 18202.0,
+      "g_gaussian_old": 0.15092433355537738,
+      "g_gaussian_new": 51.22188071254641
+    },
+    "54620.0": {
+      "gaussian_old": 0.8416212335729311,
+      "gaussian_new": 0.0,
+      "g_gaussian_k": 27305.0,
+      "g_gaussian_old": 0.14858737400971783,
+      "g_gaussian_new": 62.23351170774549
+    },
+    "81930.0": {
+      "gaussian_old": 0.8416212335729585,
+      "gaussian_new": 0.0,
+      "g_gaussian_k": 40960.0,
+      "g_gaussian_old": 0.1466753686157501,
+      "g_gaussian_new": 75.71672380436212
+    },
+    "122894.0": {
+      "gaussian_old": 0.841621233572926,
+      "gaussian_new": 0.0,
+      "g_gaussian_k": 61442.0,
+      "g_gaussian_old": 0.1451126073552679,
+      "g_gaussian_new": 92.2267057467252
+    },
+    "184340.0": {
+      "gaussian_old": 0.8416212335729087,
+      "gaussian_new": 0.0,
+      "g_gaussian_k": 92165.0,
+      "g_gaussian_old": 0.14384131969190733,
+      "g_gaussian_new": 112.44467634242028
+    },
+    "276510.0": {
+      "gaussian_old": 0.8416212335728985,
+      "gaussian_new": 0.0,
+      "g_gaussian_k": 138250.0,
+      "g_gaussian_old": 0.14279803665452978,
+      "g_gaussian_new": 137.20466755330563
+    },
+    "414764.0": {
+      "gaussian_old": 0.8416212335728541,
+      "gaussian_new": 0.0,
+      "g_gaussian_k": 207377.0,
+      "g_gaussian_old": 0.1419455297062084,
+      "g_gaussian_new": 167.52735420595855
+    },
+    "622146.0": {
+      "gaussian_old": 0.8416212335727649,
+      "gaussian_new": 0.0,
+      "g_gaussian_k": 311068.0,
+      "g_gaussian_old": 0.14125415855467038,
+      "g_gaussian_new": 204.66363581363112
+    },
+    "933218.0": {
+      "gaussian_old": 0.8416212335728854,
+      "gaussian_new": 0.0,
+      "g_gaussian_k": 466604.0,
+      "g_gaussian_old": 0.14068312880793207,
+      "g_gaussian_new": 250.14476268552244
+    },
+    "1399826.0": {
+      "gaussian_old": 0.8416212335727613,
+      "gaussian_new": 0.0,
+      "g_gaussian_k": 699908.0,
+      "g_gaussian_old": 0.1402202148135337,
+      "g_gaussian_new": 305.84656866267323
+    }
+  }
+}

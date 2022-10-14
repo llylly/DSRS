@@ -1,0 +1,14 @@
+.idea/
+__pycache__/
+models/
+trained_models/
+confidence_data/
+dataset_cache/
+var_data/
+result/
+old/
+small_new_data/
+prev_prev_data
+prev_data
+data/
+
