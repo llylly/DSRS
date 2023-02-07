@@ -114,7 +114,7 @@ x alpha {args.alpha}
         sstime = time()
 
         # draw samples of f(x + epsilon)
-        counts_selection = smooth.sample_noise(model, x, distribution, args.N0, num_classes, args.batch)
+        counts_selection = smooth.full_sample_noise(model, x, distribution, args.N0, num_classes, args.batch)
         # use these samples to take a guess at the top class
         cAHat = counts_selection.argmax().item()
         if cAHat != label:

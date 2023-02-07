@@ -334,6 +334,8 @@ Linyi Li, Jiawei Zhang, Tao Xie, Bo Li. Double sampling Randomized smoothing. Pr
 
 Initial release (v1.0): Oct 11
 
+Add attack component - attack.py, dump_attack_results.py (v1.1): Feb 7
+
 Current maintainer: Linyi Li (@llylly, linyi2@illinois.edu)
 
 ### License

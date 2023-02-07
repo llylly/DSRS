@@ -10,7 +10,7 @@ from torch.utils.data import Dataset
 IMAGENET_LOC_ENV = "IMAGENET_DIR"
 # os.environ[IMAGENET_LOC_ENV] = "/srv/local/data/ImageNet/ILSVRC2012_full"
 # os.environ[IMAGENET_LOC_ENV] = "~/data/ILSVRC2012"
-os.environ[IMAGENET_LOC_ENV] = "/data1/common/ILSVRC2012"
+os.environ[IMAGENET_LOC_ENV] = "/data2/common/imagenet"
 
 TINYIMAGENET_LOC_ENV = "TINYIMAGENET_DIR"
 os.environ[TINYIMAGENET_LOC_ENV] = "~/dataset/tiny-imagenet-200"
@@ -130,7 +130,7 @@ def _imagenet(split: str) -> Dataset:
     elif split == "test":
         subdir = os.path.join(dir, "val")
         transform = transforms.Compose([
-            transforms.Scale(256),
+            transforms.Resize(256),
             transforms.CenterCrop(224),
             transforms.ToTensor()
         ])

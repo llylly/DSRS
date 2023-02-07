@@ -13,7 +13,7 @@ def sample_noise(model: torch.nn.Module, x: torch.tensor, dist: Distribution, la
     :param x: the input [channel x width x height]
     :param num: number of samples to collect
     :param batch_size:
-    :return: an ndarray[int] of length num_classes containing the per-class counts
+    :return: votes for the true class
     """
     tot = num
     with torch.no_grad():
@@ -36,6 +36,38 @@ def sample_noise(model: torch.nn.Module, x: torch.tensor, dist: Distribution, la
                 # early halt
                 break
         return counts, tot - num
+
+
+def full_sample_noise(model: torch.nn.Module, x: torch.tensor, dist: Distribution, num: int, num_classes: int, batch_size: int) -> np.ndarray:
+    """ Sample the base classifier's prediction under noisy corruptions of the input x.
+
+    :param x: the input [channel x width x height]
+    :param num: number of samples to collect
+    :param batch_size:
+    :return: an ndarray[int] of length num_classes containing the per-class counts
+    """
+    tot = num
+    counts = None
+    with torch.no_grad():
+        # counts = np.zeros(num_classes, dtype=int)
+        counts = 0
+        for i in range(ceil(num / batch_size)):
+            # print('batch', i, 'num', num, end='\r', flush=True)
+            this_batch_size = min(batch_size, num)
+            num -= this_batch_size
+
+            batch = x.repeat((this_batch_size, 1, 1, 1))
+            # noise = dist.sample(this_batch_size).astype(np.float32)
+            noise = dist.sample(this_batch_size, cuda=True)
+            noise = torch.tensor(noise, device='cuda').resize_as(batch)
+            logits = model(batch + noise)
+            predictions = torch.nn.functional.one_hot(logits.argmax(1), num_classes=logits.shape[-1])
+            predictions = predictions.sum(dim=0)
+            if counts is None:
+                counts = predictions
+            else:
+                counts += predictions
+        return counts
 
 def confidence_bound(NA: int, N: int, alpha: float) -> (float, float):
     """ Returns a (1 - alpha) confidence *interval* on a bernoulli proportion.
