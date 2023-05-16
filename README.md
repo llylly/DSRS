@@ -336,6 +336,8 @@ Initial release (v1.0): Oct 11
 
 Add attack component - attack.py, dump_attack_results.py (v1.1): Feb 7
 
+Add original data/ folder for reproducibility (v1.2): May 16
+
 Current maintainer: Linyi Li (@llylly, linyi2@illinois.edu)
 
 ### License

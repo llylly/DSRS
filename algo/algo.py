@@ -1394,13 +1394,13 @@ def check(disttype: str, r: float, d: int, k: int, sigma: float, beta: float,
         """ enlarge lambda12 to tolerate numerical intergration error """
         lamb12_gap = (lamb12_R - lamb12_L) / 2.
         now_Ql = compute_Q_by_lamb12(lamb12_L)
-        while now_Ql + eps > q1:
-            lamb12_L -= lamb12_gap
-            now_Ql = compute_Q_by_lamb12(lamb12_L)
+        # while now_Ql + eps > q1:
+        #     lamb12_L -= (lamb12_R - lamb12_L) / 2.
+        #     now_Ql = compute_Q_by_lamb12(lamb12_L)
         now_Qr = compute_Q_by_lamb12(lamb12_R)
-        while now_Qr - eps < q1:
-            lamb12_R += lamb12_gap
-            now_Qr = compute_Q_by_lamb12(lamb12_R)
+        # while now_Qr - eps < q1:
+        #     lamb12_R += (lamb12_R - lamb12_L) / 2.
+        #     now_Qr = compute_Q_by_lamb12(lamb12_R)
 
         """ decompose P1 to two parts P1it, P1ni """
         p1ni = q1 / nu
